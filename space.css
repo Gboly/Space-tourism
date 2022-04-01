@@ -1,0 +1,614 @@
+﻿.bg-home{
+    margin:0;
+    background-image:url(background-home-desktop.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    min-height:100%;
+    min-width:100%;
+}
+svg {
+    width: 3.333333333333333vw;
+    height: 5.333333333333333vh;    
+}
+
+.navbar {
+    margin: 4.444444444444444vh 0 0 3.819444444444444vw;    
+    height: 10.66666666666667vh;
+}
+
+.navbrand-container {
+    width: 38.54166666666667vw;    
+}
+
+.navbar-nav {
+    padding: 0 11.45833333333333vw 0 8.541666666666667vw;
+    width: 57.63888888888889vw;    
+}
+
+.collapse {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+    width: 57.63888888888889vw; 
+}
+
+.navbar-toggler {
+    background-color: #D0D6F9;
+}
+
+.home-line {
+    position: absolute;
+    left: 11.59722222222222vw;
+    width: 32.84722222222222vw;
+    height: 0.1111111111111111vh;
+    top: 7.9vh;
+    z-index:1;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.nav-link {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 1.3em;
+    padding-top: 4.333333333333333vh;
+    padding-bottom: 4.222222222222222vh;
+   
+}
+
+.nav-link-hover{
+    border-bottom: 3px solid rgba(255,255,255,.4);
+}
+
+.nav-link-active {
+    border-bottom: 3px solid rgba(255,255,255,1);
+}
+
+span {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    margin-right: 0.5208333333333333vw;
+}
+
+.content-left {
+    position: absolute;
+    width: 31.25vw;
+    height: 42.44444444444444vh;
+    left: 11.45833333333333vw;
+    top: 43vh;
+    color: #D0D6F9;
+}
+
+h5 {
+    font-size: 2.2rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.777777777777778vh;
+    letter-spacing: 0.3277777777777778vw;
+}
+
+h1 {
+    font-family: 'Bellefair', serif;
+    font-style: normal;
+    font-weight: 400;
+     /*font-size is not dependent on width or height of character. There is a diffferent standard for it. Therefore, i cant scale to match my screen resolution.
+       so, i altered font size to suit ".content-left" which has a vw unit.
+         original - 9.375rem*/
+    font-size: 12.3099rem;
+    line-height: 19.11111111111111vh;
+    color: #ffffff;
+    margin: 2.666666666666667vh auto 2.666666666666667vh 0;
+}
+
+.bottom {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    /*This font size is relative to h1's font-size*/
+    font-size: 1.438rem;
+    line-height: 3.555555555555556vh;
+}
+
+.content-right {
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    left: 69.51388888888889vw;
+    top: 55vh;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #0B0D17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bellefair', serif;    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.48rem;
+    line-height: 4.111111111111111vh;
+    letter-spacing: 0.1388888888888889vw;
+}
+
+.content-right:hover{
+    box-shadow: 0 0 0 100px rgba(255,255,255,0.09);
+}
+
+.bg-moon {
+    background-image: url(starter-code/assets/destination/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.moon-instruction {
+    position: absolute;
+    width: 26.52777777777778vw;
+    /*height: 34px;*/
+    left: 11.5625vw;
+    top: 23.55555555555556vh;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 3.777777777777778vh;
+    letter-spacing: 0.328125vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.moon-span {
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    font-weight: 700;
+    margin-right: 1.041666666666667vw;
+}
+
+.moon-img {
+     width: 536px;
+     height: 536px;
+    position: absolute;
+    /*width: 30.90277777777778vw;
+    height: 49.44444444444444vh;*/
+    left: 15.97222222222222vw;
+    top: 38.11111111111111vh;
+}
+
+.moon-content {
+    position: absolute;
+    left: 57.77777777777778vw;
+    top: 34.44444444444444vh;
+    width: 30.90277777777778vw;
+    /*height: 52.44444444444444vh;*/
+    
+}
+
+.moon-content-navbar {
+    height: 3.777777777777778vh;
+    width: 19.82638888888889vw;
+    display: flex;
+    justify-content: space-between;
+    color: #D0D6F9
+}
+
+.moon-content-nav {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.15rem;
+    line-height: 2.111111111111111vh;
+    letter-spacing: 0.1875vw;
+    text-decoration: none;
+    color: #D0D6F9;
+}
+
+.moon-nav-clicked {
+    border-bottom: 3px solid #ffffff;
+    color:#ffffff;
+}
+
+
+
+.moon-content-nav:hover {
+    color: inherit;
+    border-bottom: 3px solid #D0D6F9;
+}
+
+
+/*#moon:hover {
+    color: inherit;
+}
+#europa:hover {
+    color: inherit;
+}
+#mars:hover {
+    color: inherit;
+}
+#titan:hover {
+    color: inherit;
+}*/
+
+
+
+
+.moon-nav-hover {
+    border-bottom: 3px solid #D0D6F9;
+    
+}
+
+.moon-heading {
+    font-family: 'Bellefair', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8rem;
+    line-height: 12.77777777777778vh;
+    margin-top: 4.111111111111111vh;
+    margin-bottom: 4.111111111111111vh;
+    color: #ffffff;
+}
+
+.moon-description {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 3.555555555555556vh;
+    color: #D0D6F9
+}
+
+.moon-line {
+    height: 0.1111111111111111vh;
+    margin-top: 6vh;
+    margin-bottom: 3.111111111111111vh;
+    background: #D0D6F9;
+}
+
+.distance-container {
+    display: inline-block;
+    Width: 9.930555555555556vw;
+    Height: 6.777777777777778vh;
+}
+
+.time-container {
+    display: inline-block;
+    Width: 8.472222222222222vw;
+    Height: 6.777777777777778vh;
+    margin-left: 5.486111111111111vw;
+}
+
+.moon-distance-head, .moon-time-head {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.888888888888889vh;
+    letter-spacing: 0.1640625vw;
+    text-transform: uppercase;
+    color: #D0D6F9;
+}
+
+.moon-distance-body, .moon-time-body {
+    font-family: 'Bellefair', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.1rem;
+    line-height: 3.555555555555556vh;
+    color: #ffffff;
+    margin-top: 1.333333333333333vh;
+}
+
+.bg-crew {
+    background-image: url(starter-code/assets/crew/background-crew-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.crew-instruction {
+    position: absolute;
+    width: 19.86111111111111vw;
+    /*height: 34px;*/
+    left: 11.5625vw;
+    top: 23.55555555555556vh;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 3.777777777777778vh;
+    letter-spacing: 0.328125vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.crew-span {
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    font-weight: 700;
+    margin-right: 1.041666666666667vw;
+}
+
+.crew-img {
+    position: absolute;
+   /* width: 579px;
+    height: 788.5214007782101px;*/
+    /*width: 39.44930555555556vw;*/
+    /*height: 79.11111111111111vh;*/
+    right: 9.513888888888889vw;
+    /*top: 198px;*/
+    bottom: 0;
+}
+
+.crew-content-container {
+    position: absolute;
+    /*width: 214px;
+    height: 37px;*/
+    left: 11.49305555555556vw;
+    top: 44.44444444444444vh;
+    
+}
+
+.crew-title {
+    font-family: 'Bellefair', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.45rem;
+    line-height: 4.111111111111111vh;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.crew-name {
+    font-family: 'Bellefair', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.4rem;
+    line-height: 7.111111111111111vh;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 1.666666666666667vh auto 3vh auto;
+   
+}
+
+.crew-body {
+    font-family: 'Barlow',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 3.555555555555556vh;
+    color: #D0D6F9;
+    width: 30.83333333333333vw;
+    
+}
+
+.crew-slide-indicator-container {
+    position: absolute;
+    width: 9.166666666666667vw;
+    height: 1.666666666666667vh;
+    left: 11.59722222222222vw;
+    top: 87.88888888888889vh;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+}
+
+.crew-slide-indicator {
+    width:16px;
+    height: 16px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.17;
+    border-radius:50%;
+}
+
+.crew-slide-active{
+    opacity:1;
+}
+
+.crew-slide-indicator:hover{
+    opacity:0.5;
+}
+
+
+.animation1 {
+    animation: slideIn 0.5s;
+}
+
+@keyframes slideIn {
+    0% {
+        left: 0;
+    }
+    /*to{left:221px;}*/
+}
+
+.animation2{
+    animation: clear 0.5s;
+}
+
+@keyframes clear{
+    0%{opacity:0.2}
+    50%{opacity:0.6 !important}
+    100%{opacity:1}
+}
+
+.bg-technology {
+    background-image: url(../starter-code/assets/technology/background-technology-desktop.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.technology-instruction {
+    position: absolute;
+    /*width: 19.86111111111111vw;*/
+    /*height: 34px;*/
+    left: 11.5625vw;
+    top: 23.55555555555556vh;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 3.777777777777778vh;
+    letter-spacing: 0.328125vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.technology-span {
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    font-weight: 700;
+    margin-right: 1.041666666666667vw;
+}
+
+.technology-img {
+    position: absolute;
+    width: 35.76388888888889vw;
+    height: 58.55555555555556vh;
+    right: 0;
+    top: 30.22222222222222vh;
+    
+}
+
+.animation3{
+    animation: upAndDown 1.5s; 
+}
+
+@keyframes upAndDown{
+    0% {
+        top: 18.24742268041237vh;
+        opacity: .2;
+    }
+    30% {
+        top: 41.54639175257732vh;
+        opacity: .5;
+    }
+    100% {
+        top: 30.22222222222222vh;
+        opacity: 1;
+    }
+}
+
+.technology-slide-indicator-container {
+    position: absolute;
+    width: 5.555555555555556vw;
+    height: 32.16494845360825vh;
+    left: 11.45833333333333vw;
+    top: 42.55555555555556vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.technology-slide-indicator {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.4);
+    font-family: 'Bellefair', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.37rem;
+    line-height: 4.111111111111111vh;
+    /* identical to box height */
+   
+    letter-spacing: 0.1388888888888889vw;
+    color: #FFFFFF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.technology-slide-active {
+    background-color: #fff;
+    color: #0B0D17;
+}
+
+.technology-slide-indicator:hover {
+    border-color: rgba(255,255,255,1)
+}
+
+a{
+    text-decoration:none;
+}
+
+.technology-content {
+    position: absolute;
+    /*width: 32.63888888888889vw;*/
+    /*height: 33.66666666666667vh;*/
+    left: 22.56944444444444vw;
+    top: 42.55555555555556vh;
+}
+
+.technology-title {
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.16rem;
+    line-height: 2.111111111111111vh;
+    letter-spacing: 0.1875vw;
+    color: #D0D6F9;
+}
+
+.technology-name {
+    font-family: 'Bellefair', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.43rem;
+    line-height: 7.111111111111111vh;
+    color: #FFFFFF;
+    margin: 1.7vh auto 3.5vh auto;
+    text-transform:uppercase;
+}
+
+.technology-body {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.31rem;
+    line-height: 3.555555555555556vh;    
+    color: #D0D6F9;
+    width: 30.83333333333333vw;
+}
+
+.animation4 {
+    animation: down 1.5s;
+}
+
+@keyframes down {
+    0% {
+        opacity: .2;
+        /*z-index:2*/
+    }
+
+    /*30% {
+        top: 41.54639175257732vh;
+        opacity: .5;
+    }*/
+
+    100% {
+        opacity: 1;
+        /*z-index:initial;*/
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
